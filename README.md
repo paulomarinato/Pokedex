@@ -1,4 +1,4 @@
-# Pokadex
+# Pokedex
 Este projeto será desenvolvido em Kotlin
 Este projeto é o Segundo desafio onde irei desenvolver usando meus conhecimentos em Kotlin.
 
