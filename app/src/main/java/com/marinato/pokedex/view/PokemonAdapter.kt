@@ -18,7 +18,6 @@ class PokemonAdapter(
         val view = LayoutInflater.from(parent.context).inflate(R.layout.pokemon_item, parent, false)
 
         return ViewHolder((view))
-
     }
 
     override fun getItemCount() = items.size
@@ -48,7 +47,6 @@ class PokemonAdapter(
                 tvType2.text = item.types[1].nome
             } else {
                 tvType2.visibility = View.GONE
-
             }
         }
     }
