@@ -16,6 +16,9 @@ class PokemonAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.pokemon_item, parent, false)
+
+        return ViewHolder((view))
+
     }
 
     override fun getItemCount() = items.size
@@ -36,14 +39,16 @@ class PokemonAdapter(
 
             // TODO: Load image with Glade
 
-            tvNumber.text = "N.º ${item.number}"
+            tvNumber.text = "N.º ${item.formattedNumber}"
             tvName.text = item.name
             tvType1.text = item.types[0].nome
 
             if (item.types.size > 1){
+                tvType2.visibility = View.VISIBLE
                 tvType2.text = item.types[1].nome
             } else {
-                 
+                tvType2.visibility = View.GONE
+
             }
         }
     }
