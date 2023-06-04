@@ -1,5 +1,5 @@
 package com.marinato.pokedex.domain
 
 data class PokemonType(
-    val nome: String
+    val name: String
 )
