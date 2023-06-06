@@ -13,7 +13,7 @@ _ (caso tenha) Tipo 2.
 
 
 
-#Finalização.
+# Finalização.
 
 Finalizada a primeira parte deste projeto. Onde foi determinada que o 
 app Pokedex apresentasse todos os 151 pokemon, com a seguinte configuração de visualização:
